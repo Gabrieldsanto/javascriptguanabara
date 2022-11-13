@@ -4,32 +4,27 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Javascrispt aula 1</title>
-
+    <title>Document</title>
     <style>
         body{
-          
-            background-color: crimson;
-            color: white;
             font: normal 20pt arial;
         }
-
-
     </style>
 </head>
 <body>
 
-    <h1>Olá, Mundo!!</h1>
-
-    <p>Ja me livrei da maldição</p>
-
     <script>
         var nome = window.prompt('Qual o seu nome?');
+        document.write (`Olá, ${nome}! Seu nome tem ${nome.length} letras <br>`); // .length define quantas letras tem o nome
+
+        document.write (`Seu nome em maiusculo é ${nome.toUpperCase()}<br>`); // Letras Maiusculas
+
+        document.write (`Seu nome em minusculo é ${nome.toLowerCase()}`); // Letras Minusculas
 
 
-        window.alert('Seja bem vindo, ' +nome + '!');
+
+
     </script>
-
     
 </body>
 </html>
