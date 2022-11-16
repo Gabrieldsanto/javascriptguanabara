@@ -12,10 +12,15 @@
         color: blue;
         font: normal 18px arial;
      }
+
+     hr{
+        background-color: green;
+     }
 </style>
 <body>
     <script>
         window.document.write('Olá. Mundo!')
+        
 
     </script>
     
@@ -24,10 +29,42 @@
     <p>Aqui vai o resultado</p>
     <p>    Aprendendo  a usar <strong>DOM</strong> em javascript</p>
 
-    <div>Clique em mim</div>
+    
+
+    <div id="msg">Clique em mim</div>
+    <br>
+
+    
 
     <script>
-        window.document.write('Olá. Mundo!')
+        var corpo= window.document.body
+        corpo.style.background = 'yellow';
+
+        var p1= window.document.getElementsByTagName('p')[0]
+        window.document.write('Está escrito assim: '+ p1.innerText)
+
+        var t1= window.document.getElementsByTagName('h1')[0]
+        t1.style.color = 'black';
+
+        var d =window.document.getElementById('msg')
+        d.style.background = 'green'
+        d.style.color= 'lightblue'
+        //d.innerText = 'Estou aguardando...'
+          
+
+
+    </script>
+
+    <hr style="height: 20px;" >
+
+    <h3>Testando seletor</h3>
+
+    <div id="msg2">Clique em mim 2</div>
+
+    <script>
+
+        var s = window.document.querySelector('div#msg2')
+        s. style.background = 'red'
 
     </script>
     
