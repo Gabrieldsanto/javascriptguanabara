@@ -12,6 +12,11 @@ header{
 
 }
 
+h1{
+    text-shadow: 3px 3px 7px black;
+
+}
+
 section{
     background: white;
     border-radius: 10px;
@@ -22,9 +27,15 @@ section{
 
 }
 
+div{
+    text-align: center;
+    padding: 7px;
+}
+
 footer{
-    color: white;
+    color:gray;
     text-align: center;
     font-style: italic;
+    text-shadow: 3px 3px 7px white;
 
 }
