@@ -1,0 +1,45 @@
+@charset "UTF-8";
+
+body{
+    background-color: blueviolet;
+}
+
+section{
+    background-color: white;
+    height: 700px;
+    width: 700px;
+    margin: auto;
+    border-radius: 5px;
+    box-shadow: 3px 3px 5px black;
+}
+
+h1{
+    color: white;
+    text-align: center;
+    font-size: 35pt;
+    text-shadow: 2px 2px 3px blue;
+}
+
+div{
+    padding: 30px;
+}
+
+select#flista{
+    width: 150px;
+}
+
+#finalizar{
+    margin-left: 20px;
+}
+
+footer{
+    background-color: blue;
+    color: white;
+    padding: 15px;
+    margin: auto;
+    margin-top: 15px;
+    text-align: center;
+    text-shadow: 2px 2px 5px black;
+
+}
+
